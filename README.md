@@ -71,8 +71,8 @@ This package provides ready-to-use social login buttons for Laravel projects usi
 ```
 
 # How To Use
-- Add social login buttons to your blade file. you can change url if you have custom routes
-
+- Add social login buttons to your blade file. 
+- "you can change url if you have custom routes"
 ```bash
     <x-socialite-button provider="facebook" url=""/>
     <x-socialite-button provider="google" url=""/>
