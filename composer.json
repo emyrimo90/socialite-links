@@ -1,0 +1,35 @@
+{
+    "name": "eman-elroukh/socialite-links",
+    "description": "This Package for generate Socialite Links",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "socialite",
+        "Laravel",
+        "Lumen"
+    ],
+    "authors": [
+        {
+            "name": "Eman Mahmoud Elroukh",
+            "email": "ahlamelhna@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EmanElroukh\\SocialiteLinks\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EmanElroukh\\SocialiteLinks\\Providers\\SocialiteLinksServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^6.3|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "laravel/socialite": "^5.18"
+    }
+}
