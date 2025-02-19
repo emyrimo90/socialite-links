@@ -68,6 +68,21 @@ This package provides ready-to-use social login buttons for Laravel projects usi
         'client_secret' => env('TWITTER_CLIENT_SECRET'),
         'redirect' => env('TWITTER_REDIRECT_URI'),
     ],
+    'instagram' => [
+        'client_id' => env('INSTAGRAM_CLIENT_ID'),
+        'client_secret' => env('INSTAGRAM_CLIENT_SECRET'),
+        'redirect' => env('INSTAGRAM_REDIRECT_URI'),
+    ],
+    'github' => [
+        'client_id' => env('GITHUB_CLIENT_ID'),
+        'client_secret' => env('GITHUB_CLIENT_SECRET'),
+        'redirect' => env('GITHUB_REDIRECT_URI'),
+    ],
+    'linkedin' => [
+        'client_id' => env('LINKEDIN_CLIENT_ID'),
+        'client_secret' => env('LINKEDIN_CLIENT_SECRET'),
+        'redirect' => env('LINKEDIN_REDIRECT_URI'),
+    ],
 ```
 
 # How To Use
@@ -77,4 +92,7 @@ This package provides ready-to-use social login buttons for Laravel projects usi
     <x-socialite-button provider="facebook" url=""/>
     <x-socialite-button provider="google" url=""/>
     <x-socialite-button provider="twitter" url=""/>
+    <x-socialite-button provider="instagram" url=""/>
+    <x-socialite-button provider="github" url=""/>
+    <x-socialite-button provider="linkedin" url=""/>
 ```
